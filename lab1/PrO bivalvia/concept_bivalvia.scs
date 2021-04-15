@@ -1,0 +1,27 @@
+concept_bivalvia 
+
+=> nrel_main_idtf:
+	[двустворчатые молюски]
+	(*<-lang_ru;;*);
+	[bivalvia]
+	(*<-lang_lat;;*);
+	[bivalve molluscs]
+	(*<-lang_en;;*);
+
+<- concept_class;
+
+=> nrel_inclusion: 
+	concept_unionoida;
+
+<- rrel_key_sc_element:
+	...
+	(*
+	<- explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Двустворчатые молюски - класс морских и пресноводных малоподвижных моллюсков, тело которых уплощено с боков и заключено в раковину из двух створок.]
+			(* <- lang_ru;; *);;
+		*);;
+*);;

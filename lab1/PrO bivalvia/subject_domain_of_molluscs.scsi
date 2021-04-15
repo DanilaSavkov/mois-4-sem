@@ -1,0 +1,23 @@
+subject_domain_of_molluscs
+
+=> nrel_main_idtf:
+	[Предметная область моллюсков]
+	(*<-lang_ru;;*);
+	[Subject domain of molluscs]
+	(*<-lang_en;;*);
+	
+=> nrel_private_subject_domain:
+		subject_domain_of_сaudofoveata;
+		subject_domain_of_solenogastres;
+		subject_domain_of_polyplacophora;
+		subject_domain_of_monoplacophora;
+		subject_domain_of_bivalvia;
+		subject_domain_of_scaphopoda;
+		subject_domain_of_gastropoda;
+		subject_domain_of_cephalopoda;
+		subject_domain_of_rostroconchia;
+		subject_domain_of_tentaculita;
+	
+<- subject_domain;
+<- sc_node_struct;
+<- structure;;

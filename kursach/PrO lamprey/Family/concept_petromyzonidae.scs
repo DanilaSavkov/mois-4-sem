@@ -1,0 +1,23 @@
+concept_petromyzonidae => nrel_main_idtf:
+[миноговые](*<-lang_ru;;*);
+[lampreys](*<-lang_en;;*);
+[petromyzonidae](*<-lang_lat;;*);;
+
+concept_family -> concept_petromyzonidae;;
+
+concept_petromyzonidae => nrel_inclusion: concept_lampetra_fluvialis;;
+
+//определение и пояснения
+concept_petromyzonidae <- rrel_key_sc_element:
+	...
+	(*
+	<- explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Миноговые — семейство бесчелюстных из отряда миногообразных.](* <- lang_ru;; *);;
+		*);;
+*);;
+
+subject_domain_of_petromyzontes -> rrel_not_maximum_studied_object_class: concept_petromyzonidae;;

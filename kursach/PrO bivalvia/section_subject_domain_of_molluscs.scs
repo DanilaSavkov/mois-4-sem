@@ -1,0 +1,33 @@
+section_subject_domain_of_molluscs
+
+=> nrel_main_idtf:
+	[Раздел. Предметная область моллюсков]
+	(*<-lang_ru;;*);
+	[Section. Subject domain of molluscs]
+	(*<-lang_en;;*);
+	
+=> nrel_idtf: 	
+	[Раздел базы знаний по Красной книге, описывающий моллюсков.]
+	(* <- lang_ru;; *);
+	
+<= nrel_section_decomposition: 
+	{
+		section_subject_domain_of_сaudofoveata;
+		section_subject_domain_of_solenogastres;
+		section_subject_domain_of_polyplacophora;
+		section_subject_domain_of_monoplacophora;
+		section_subject_domain_of_bivalvia;
+		section_subject_domain_of_scaphopoda;
+		section_subject_domain_of_gastropoda;
+		section_subject_domain_of_cephalopoda;
+		section_subject_domain_of_rostroconchia;
+		section_subject_domain_of_tentaculita
+	};
+	
+<- not_enough_formed_structure;
+<- non_atomic_section;
+
+-> rrel_key_sc_element: 
+	subject_domain_of_molluscs;;
+
+section_subject_domain_of_molluscs = [*^"file://subject_domain_of_molluscs.scsi"*];;

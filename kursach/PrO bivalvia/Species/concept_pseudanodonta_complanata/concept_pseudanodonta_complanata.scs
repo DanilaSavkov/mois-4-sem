@@ -1,0 +1,163 @@
+concept_pseudanodonta_complanata=> nrel_main_idtf: 
+	[узкая беззубка](*<- lang_ru;;*); 
+	[pseudanodonta complanata](*<- lang_lat;;*); 
+	[вузкая бяззубка](*<- lang_bel;;*);;
+
+concept_pseudanodonta_complanata <-rrel_key_sc_element:...
+(*
+<-illustration;;
+=>nrel_main_idtf:
+[Рис. (узкая беззубка)](*<-lang_ru;;*);;
+<=nrel_sc_text_translation:...
+(*
+->"file://concept_pseudanodonta_complanata.jpg"(*=>nrel_format:format_jpg;;*);;
+*);;
+*);;
+
+concept_animalia -> concept_pseudanodonta_complanata;;
+concept_species -> concept_pseudanodonta_complanata;;
+subject_domain_of_bivalvia -> rrel_not_maximum_studied_object_class: concept_pseudanodonta_complanata;;
+nrel_upload_date -> ...
+	(*
+	-> rrel_1: Red_list;; 
+	-> rrel_2: concept_pseudanodonta_complanata;;
+	-> rrel_3: ... (*-> rrel_number_of_year: 1993 (*<- number;;*);;*);;
+	*);;
+
+//пояснения
+concept_pseudanodonta_complanata <- rrel_key_sc_element:
+	...
+	(*
+	<- explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Международная значимость: Обладает международным охранным статусом в соответствии с категорией LR/nt (IUCN). Вид включен в Красную книгу Польши (категория EN).](* <- lang_ru;; 	*);;
+		*);;
+	*);
+	...
+	(*
+	<- explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Описание: Раковина тонкостенная, овальная, удлиненная и очень сжатая. Спинной край раковины прямой, слегка возвышающийся над макушкой, а брюшной - закругленный. Задний и передний края раковины клиновидные, причем задний - более широкий. Наружная поверхность раковины гладкая, линии прироста очень тонкие. Макушка широкая, но не выступающая, а ее скульптура поверхности представлена в виде коротких волнистых утолщений, не всегда расположенных вдоль линии прироста. Замочная площадка полностью редуцирована, связка, соединяющая створки (лигамент), длинная и узкая. Размеры: длина 50 -60 мм, высота 25 -30 мм, толщина около 15 мм.](* <- lang_ru;; 	*);;
+		*);;
+	*);
+	...
+	(*
+	<- explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Распространиение: Общее распространение: Западная Европа. В Беларуси вид обнаружен в озерах Минской обл. (Нарочь, Мястро, Баторино) .](* <- lang_ru;; 	*);;
+		*);;
+	*);
+	...
+	(*
+	<- explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Местообитания: Обитает в чистых реках, глубоководных зонах литорали озер. Предпочитает песчаное дно.](* <- lang_ru;; 	*);;
+		*);;
+	*);
+	...
+	(*
+	<- explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Биология: Пресноводный двустворчатый моллюск. Малоподвижен и большую часть жизни проводит, зарывшись в донные осадки. Моллюски локализуются в углублениях дна водоемов, где с током воды для них обеспечивается поступление взвешенной в воде пищи. По типу питания фильтратор, в качестве корма использует мелкие планктонные организмы, водоросли, простейшие, а также детрит. Размножение происходит в период с мая по март -апрель следующего года. Оплодотворение наружное. Развитие непрямое. Эмбриональное развитие продолжается в течение 3 -4 месяцев. Личинки (глохидии) созревают в наружных полужабрах моллюсков в начале осени, а покидают материнский организм только к середине зимы. Дальнейший процесс развития личинок связан с рыбами, которые являются потенциальными хозяевами для личиночной стадии моллюсков. Паразитарный период развития длится несколько недель, после чего ювенильные особи покидают рыб и переходят на самостоятельное питание.](* <- lang_ru;; 	*);;
+		*);;
+	*);
+	...
+	(*
+	<- explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Численность и тенденция ее изменения: Необходима дополнительная информация о численности и распространении данного вида в Беларуси. После 1985 г. на территории республики находки не подтверждались.](* <- lang_ru;; 	*);;
+		*);;
+*);
+	...
+	(*
+	<- explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Основные факторы угрозы: Вид чувствителен к неблагоприятному воздействию загрязнений.](*<- lang_ru;;*);;
+		*);;
+	*);
+	...
+	(*
+	<- explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Меры охраны: Не допускать загрязнения водоемов и проведения мелиоративных мероприятий в местах обитания вида.](*<- lang_ru;;	*);;
+		*);;
+	*);;
+
+//характеристики
+concept_pseudanodonta_complanata <= nrel_spread: ... 
+	(*
+    <= nrel_combination: ... 
+		(*
+		-> Republic_of_Belarus;;
+		*);;
+	*);;
+	
+	Republic_of_Belarus=> nrel_main_idtf: 
+	[Республика Беларусь](*<- lang_ru;;*); 
+	[Republic of Belarus](*<- lang_lat;;*); 
+	[Рэспублiка Беларусь](*<- lang_bel;;*);;
+	
+	Republic_of_Belarus <- concept_country;;
+	
+//части тела
+concept_pseudanodonta_complanata => nrel_part: 
+	...
+	(*
+	<= nrel_inclusion: concept_sink;;
+	*);
+	...
+	(*
+	<= nrel_inclusion: concept_crown;;
+	*);;
+	
+	concept_sink=> nrel_main_idtf: 
+	[раковина](*<- lang_ru;;*); 
+	[sink](*<- lang_lat;;*); 
+	[ракавіна](*<- lang_bel;;*);;
+	
+	concept_crown=> nrel_main_idtf: 
+	[макушка](*<- lang_ru;;*); 
+	[crown](*<- lang_lat;;*); 
+	[макушка](*<- lang_bel;;*);;
+	
+//размеры и вес
+concept_pseudanodonta_complanata <= nrel_inclusion: 
+	[50-60 мм]
+	(*
+	<- interval_value;;
+	<- length_of_body;;
+	=> nrel_measurement: ([50 мм] => [60 мм]);;	
+	*);;
+	
+	[50 мм] <- length_of_body; exact_value;;
+	[50 мм] -> .milimeter: 50 (* <- number;;*);;
+	[60 мм] <- length_of_body; exact_value;;
+	[60 мм] -> .milimeter: 60 (* <- number;;*);;
+	
+//категория охраны и количество
+concept_pseudanodonta_complanata <= nrel_inclusion: concept_2_protection_category;;
+

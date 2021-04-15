@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GWF version="2.0">
+    <staticSector>
+        <node type="node/const/perm/general" idtf="F" shapeColor="0" id="94498405523616" parent="94498404232512" left="0" top="0" right="17.6563" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="192.79" y="291.328" haveBus="false" idtf_pos="1">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/perm/relation" idtf="nrel_game_position" shapeColor="0" id="94498403685632" parent="94498404232512" left="0" top="0" right="114.109" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="224.22" y="412.998" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/perm/relation" idtf="nrel_current_team" shapeColor="0" id="94498402384016" parent="94498404232512" left="0" top="0" right="108.297" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="387.074" y="412.998" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/var/perm/general" idtf="" shapeColor="0" id="94498398350416" parent="94498404232512" x="457.789" y="357.998" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/perm/group" idtf="eastern_conference_team" shapeColor="0" id="94498398352240" parent="94498404232512" left="0" top="0" right="145.078" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="457.789" y="307.048" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/var/perm/general" idtf="" shapeColor="0" id="94498398351184" parent="94498404232512" x="317.79" y="357.998" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/perm/group" idtf="nba_player" shapeColor="0" id="94498397857344" parent="94498404232512" left="0" top="0" right="68.9063" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="317.79" y="291.328" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <pair type="pair/var/-/perm/orient" idtf="" shapeColor="0" id="94498404941904" parent="94498404232512" id_b="94498398351184" id_e="94498398350416" b_x="317.79" b_y="357.998" e_x="457.789" e_y="357.998" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </pair>
+        <pair type="pair/var/pos/perm/orient/membership" idtf="" shapeColor="0" id="94498404954528" parent="94498404232512" id_b="94498403685632" id_e="94498404952384" b_x="224.22" b_y="412.998" e_x="0" e_y="-1.6425" dotBBalance="0" dotEBalance="0.313379">
+            <points/>
+        </pair>
+        <pair type="pair/var/pos/perm/orient/membership" idtf="" shapeColor="0" id="94498404943984" parent="94498404232512" id_b="94498397857344" id_e="94498398351184" b_x="317.79" b_y="291.328" e_x="317.79" e_y="357.998" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </pair>
+        <pair type="pair/var/pos/perm/orient/membership" idtf="" shapeColor="0" id="94498404942880" parent="94498404232512" id_b="94498402384016" id_e="94498404941904" b_x="387.074" b_y="412.998" e_x="0" e_y="-1.6425" dotBBalance="0" dotEBalance="0.491197">
+            <points/>
+        </pair>
+        <pair type="pair/var/pos/perm/orient/membership" idtf="" shapeColor="0" id="94498404953424" parent="94498404232512" id_b="94498398352240" id_e="94498398350416" b_x="457.789" b_y="307.048" e_x="457.789" e_y="357.998" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </pair>
+        <pair type="pair/var/-/perm/orient" idtf="" shapeColor="0" id="94498404952384" parent="94498404232512" id_b="94498398351184" id_e="94498405523616" b_x="317.79" b_y="357.998" e_x="192.79" e_y="291.328" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </pair>
+        <contour type="contour/const/perm" idtf="Eastern Conference forwards" shapeColor="0" id="94498404232512" parent="0" left="0" top="0" right="166" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" idtf_pos_x="55" idtf_pos_y="-88">
+            <points>
+                <point x="161.36" y="262.288"/>
+                <point x="161.36" y="442.288"/>
+                <point x="617.074" y="442.288"/>
+                <point x="617.074" y="263.718"/>
+            </points>
+        </contour>
+        <node type="node/var/perm/group" idtf="" shapeColor="0" id="94498404550288" parent="94498397866256" x="1085" y="-86" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/perm/group" idtf="nba_team" shapeColor="0" id="94498405214240" parent="94498397866256" left="0" top="0" right="60.7031" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="1166.79" y="-85.71" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/var/perm/general" idtf="" shapeColor="0" id="94498405213184" parent="94498397866256" x="1002.5" y="-85.71" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <pair type="pair/var/pos/perm/orient/membership" idtf="" shapeColor="0" id="94498406410224" parent="94498397866256" id_b="94498405214240" id_e="94498404550288" b_x="1166.79" b_y="-85.71" e_x="1085" e_y="-86" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </pair>
+        <pair type="pair/var/pos/perm/orient/membership" idtf="" shapeColor="0" id="94498401219872" parent="94498397866256" id_b="94498404550288" id_e="94498405213184" b_x="1085" b_y="-86" e_x="1002.5" e_y="-85.71" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </pair>
+        <contour type="contour/const/perm" idtf="NBA teams" shapeColor="0" id="94498397866256" parent="0" left="0" top="0" right="68.25" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" idtf_pos_x="81" idtf_pos_y="-45">
+            <points>
+                <point x="968.217" y="-43.32"/>
+                <point x="968.217" y="-133.32"/>
+                <point x="1275.36" y="-133.32"/>
+                <point x="1275.36" y="-44.75"/>
+            </points>
+        </contour>
+        <node type="node/var/perm/general" idtf="" shapeColor="0" id="94498405668448" parent="94498397602480" x="444.312" y="627.83" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/perm/relation" idtf="nrel_current_team" shapeColor="0" id="94498400623104" parent="94498397602480" left="0" top="0" right="108.297" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="685" y="570" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/var/perm/general" idtf="" shapeColor="0" id="94498404304880" parent="94498397602480" x="726.217" y="627.83" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/perm/general" idtf="F" shapeColor="0" id="94498405669424" parent="94498397602480" left="0" top="0" right="17.6563" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="444.312" y="570.21" haveBus="false" idtf_pos="1">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/var/perm/general" idtf="" shapeColor="0" id="94498405667680" parent="94498397602480" x="593.36" y="627.83" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/perm/group" idtf="201" shapeColor="0" id="94498404274592" parent="94498397602480" left="0" top="0" right="27.5" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="444.312" y="689.74" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/perm/group" idtf="western_conference_team" shapeColor="0" id="94498403522560" parent="94498397602480" left="0" top="0" right="147.234" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="726.217" y="689.74" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/perm/relation" idtf="nrel_game_position" shapeColor="0" id="94498402458432" parent="94498397602480" left="0" top="0" right="114.109" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="517.646" y="530.21" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/perm/group" idtf="nba_player" shapeColor="0" id="94498404307312" parent="94498397602480" left="0" top="0" right="68.9063" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="593.36" y="570.21" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/perm/relation" idtf="nrel_height" shapeColor="0" id="94498398043936" parent="94498397602480" left="0" top="0" right="71.0625" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="513.36" y="689.74" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <pair type="pair/var/pos/perm/orient/membership" idtf="" shapeColor="0" id="94498410127872" parent="94498397602480" id_b="94498404274592" id_e="94498405668448" b_x="444.312" b_y="689.74" e_x="444.312" e_y="627.83" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </pair>
+        <pair type="pair/var/pos/perm/orient/membership" idtf="" shapeColor="0" id="94498399627104" parent="94498397602480" id_b="94498400623104" id_e="94498394541504" b_x="685" b_y="570" e_x="0" e_y="0" dotBBalance="0" dotEBalance="0.721431">
+            <points/>
+        </pair>
+        <pair type="pair/var/-/perm/orient" idtf="" shapeColor="0" id="94498401254272" parent="94498397602480" id_b="94498405667680" id_e="94498405669424" b_x="593.36" b_y="627.83" e_x="444.312" e_y="570.21" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </pair>
+        <pair type="pair/var/pos/perm/orient/membership" idtf="" shapeColor="0" id="94498405024304" parent="94498397602480" id_b="94498398043936" id_e="94498401254672" b_x="513.36" b_y="689.74" e_x="0" e_y="0" dotBBalance="0" dotEBalance="0.544101">
+            <points/>
+        </pair>
+        <pair type="pair/var/pos/perm/orient/membership" idtf="" shapeColor="0" id="94498400600208" parent="94498397602480" id_b="94498402458432" id_e="94498401254272" b_x="517.646" b_y="530.21" e_x="0" e_y="0" dotBBalance="0" dotEBalance="0.501179">
+            <points/>
+        </pair>
+        <pair type="pair/var/-/perm/orient" idtf="" shapeColor="0" id="94498394541504" parent="94498397602480" id_b="94498405667680" id_e="94498404304880" b_x="593.36" b_y="627.83" e_x="726.217" e_y="627.83" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </pair>
+        <pair type="pair/var/-/perm/orient" idtf="" shapeColor="0" id="94498401254672" parent="94498397602480" id_b="94498405667680" id_e="94498405668448" b_x="593.36" b_y="627.83" e_x="444.312" e_y="627.83" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </pair>
+        <pair type="pair/var/pos/perm/orient/membership" idtf="" shapeColor="0" id="94498401255408" parent="94498397602480" id_b="94498404307312" id_e="94498405667680" b_x="593.36" b_y="570.21" e_x="593.36" e_y="627.83" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </pair>
+        <pair type="pair/var/pos/perm/orient/membership" idtf="" shapeColor="0" id="94498405023264" parent="94498397602480" id_b="94498403522560" id_e="94498404304880" b_x="726.217" b_y="689.74" e_x="726.217" e_y="627.83" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </pair>
+        <contour type="contour/const/perm" idtf="201-height western forwards" shapeColor="0" id="94498397602480" parent="0" left="0" top="0" right="160.984" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" idtf_pos_x="71" idtf_pos_y="-115">
+            <points>
+                <point x="409.074" y="494.5"/>
+                <point x="409.074" y="734.5"/>
+                <point x="880.503" y="734.5"/>
+                <point x="880.503" y="495.93"/>
+            </points>
+        </contour>
+        <node type="node/var/perm/general" idtf="" shapeColor="0" id="94498405706192" parent="94498404557408" x="824.864" y="127.81" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/var/perm/general" idtf="" shapeColor="0" id="94498405723056" parent="94498404557408" x="939.864" y="127.81" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/perm/relation" idtf="nrel_weight" shapeColor="0" id="94498405724112" parent="94498404557408" left="0" top="0" right="72.5" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="880.578" y="182.1" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/perm/group" idtf="nba_player" shapeColor="0" id="94498405706960" parent="94498404557408" left="0" top="0" right="68.9063" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="939.864" y="62.1" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/perm/group" idtf="109" shapeColor="0" id="94498405464032" parent="94498404557408" left="0" top="0" right="27.5" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="717.721" y="127.81" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <pair type="pair/var/pos/perm/orient/membership" idtf="" shapeColor="0" id="94498404938112" parent="94498404557408" id_b="94498405464032" id_e="94498405706192" b_x="717.721" b_y="127.81" e_x="824.864" e_y="127.81" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </pair>
+        <pair type="pair/var/pos/perm/orient/membership" idtf="" shapeColor="0" id="94498404940192" parent="94498404557408" id_b="94498405706960" id_e="94498405723056" b_x="939.864" b_y="62.1" e_x="939.864" e_y="127.81" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </pair>
+        <pair type="pair/var/pos/perm/orient/membership" idtf="" shapeColor="0" id="94498404939152" parent="94498404557408" id_b="94498405724112" id_e="94498404892096" b_x="880.578" b_y="182.1" e_x="0" e_y="-7.8" dotBBalance="0" dotEBalance="0.528804">
+            <points/>
+        </pair>
+        <pair type="pair/var/-/perm/orient" idtf="" shapeColor="0" id="94498404892096" parent="94498404557408" id_b="94498405723056" id_e="94498405706192" b_x="939.864" b_y="127.81" e_x="824.864" e_y="127.81" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </pair>
+        <contour type="contour/const/perm" idtf="109-weight NBA players" shapeColor="0" id="94498404557408" parent="0" left="0" top="0" right="137.891" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" idtf_pos_x="43" idtf_pos_y="-100">
+            <points>
+                <point x="1032.83" y="220.22"/>
+                <point x="1032.83" y="26.53"/>
+                <point x="663.36" y="26.53"/>
+                <point x="663.36" y="221.27"/>
+            </points>
+        </contour>
+        <node type="node/var/perm/general" idtf="" shapeColor="0" id="94498405212464" parent="94498403323728" x="310.217" y="161.76" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/perm/group" idtf="23" shapeColor="0" id="94498405338032" parent="94498403323728" left="0" top="0" right="21" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="383.074" y="161.76" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/perm/group" idtf="nba_player" shapeColor="0" id="94498405425248" parent="94498403323728" left="0" top="0" right="68.9063" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="383.074" y="76.04" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/perm/relation" idtf="nrel_game_number" shapeColor="0" id="94498405251168" parent="94498403323728" left="0" top="0" right="114.375" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="383.074" y="112.47" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/var/perm/general" idtf="" shapeColor="0" id="94498405337312" parent="94498403323728" x="310.217" y="76.04" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <pair type="pair/var/pos/perm/orient/membership" idtf="" shapeColor="0" id="94498404894096" parent="94498403323728" id_b="94498405338032" id_e="94498405212464" b_x="383.074" b_y="161.76" e_x="310.217" e_y="161.76" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </pair>
+        <pair type="pair/var/pos/perm/orient/membership" idtf="" shapeColor="0" id="94498404898304" parent="94498403323728" id_b="94498405425248" id_e="94498405337312" b_x="383.074" b_y="76.04" e_x="310.217" e_y="76.04" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </pair>
+        <pair type="pair/var/pos/perm/orient/membership" idtf="" shapeColor="0" id="94498404897264" parent="94498403323728" id_b="94498405251168" id_e="94498404893120" b_x="383.074" b_y="112.47" e_x="0" e_y="7.4" dotBBalance="0" dotEBalance="0.410517">
+            <points/>
+        </pair>
+        <pair type="pair/var/-/perm/orient" idtf="" shapeColor="0" id="94498404893120" parent="94498403323728" id_b="94498405337312" id_e="94498405212464" b_x="310.217" b_y="76.04" e_x="310.217" e_y="161.76" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </pair>
+        <contour type="contour/const/perm" idtf="23-number NBA players" shapeColor="0" id="94498403323728" parent="0" left="0" top="0" right="137.891" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" idtf_pos_x="35" idtf_pos_y="-72">
+            <points>
+                <point x="267.36" y="43.9"/>
+                <point x="267.36" y="203.9"/>
+                <point x="618.789" y="203.9"/>
+                <point x="618.789" y="43.9"/>
+            </points>
+        </contour>
+        <node type="node/const/perm/group" idtf="nba_player" shapeColor="0" id="94498405069984" parent="94498404553680" left="0" top="0" right="68.9063" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="467.931" y="-131.89" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/var/perm/general" idtf="" shapeColor="0" id="94498405068976" parent="94498404553680" x="467.931" y="-56.18" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <pair type="pair/var/pos/perm/orient/membership" idtf="" shapeColor="0" id="94498404868784" parent="94498404553680" id_b="94498405069984" id_e="94498405068976" b_x="467.931" b_y="-131.89" e_x="467.931" e_y="-56.18" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </pair>
+        <contour type="contour/const/perm" idtf="NBA players" shapeColor="0" id="94498404553680" parent="0" left="0" top="0" right="75.4531" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" idtf_pos_x="34" idtf_pos_y="-75">
+            <points>
+                <point x="385.074" y="-167.61"/>
+                <point x="385.074" y="-9.03"/>
+                <point x="617.931" y="-9.03"/>
+                <point x="617.931" y="-164.75"/>
+            </points>
+        </contour>
+        <node type="node/var/perm/general" idtf="" shapeColor="0" id="94498405068256" parent="94498404751136" x="754.146" y="-56.18" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/perm/group" idtf="western_conference_team" shapeColor="0" id="94498405148080" parent="94498404751136" left="0" top="0" right="147.234" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="754.146" y="-131.89" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <pair type="pair/var/pos/perm/orient/membership" idtf="" shapeColor="0" id="94498404867744" parent="94498404751136" id_b="94498405148080" id_e="94498405068256" b_x="754.146" b_y="-131.89" e_x="754.146" e_y="-56.18" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </pair>
+        <contour type="contour/const/perm" idtf="Western NBA teams" shapeColor="0" id="94498404751136" parent="0" left="0" top="0" right="114.531" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" idtf_pos_x="-4" idtf_pos_y="-74">
+            <points>
+                <point x="671.289" y="-167.61"/>
+                <point x="671.289" y="-9.03"/>
+                <point x="904.146" y="-9.03"/>
+                <point x="904.146" y="-164.75"/>
+            </points>
+        </contour>
+        <node type="node/const/perm/group" idtf="position" shapeColor="0" id="94498405816032" parent="94498403351056" left="0" top="0" right="50.5938" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="1167.07" y="140.8" haveBus="false" idtf_pos="1">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/perm/group" idtf="nba_player" shapeColor="0" id="94498405912960" parent="94498403351056" left="0" top="0" right="68.9063" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="1462.79" y="140.8" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/var/perm/general" idtf="" shapeColor="0" id="94498405888368" parent="94498403351056" x="1358.5" y="140.8" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/var/perm/general" idtf="" shapeColor="0" id="94498405763168" parent="94498403351056" x="1264.93" y="104.61" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/var/perm/general" idtf="" shapeColor="0" id="94498405722000" parent="94498403351056" x="1264.93" y="178.9" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/perm/relation" idtf="nrel_game_position" shapeColor="0" id="94498405888576" parent="94498403351056" left="0" top="0" right="114.109" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="1299.93" y="71.76" haveBus="false" idtf_pos="2">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <pair type="pair/var/pos/perm/orient/membership" idtf="" shapeColor="0" id="94498404937072" parent="94498403351056" id_b="94498405888576" id_e="94498404947104" b_x="1299.93" b_y="71.76" e_x="0" e_y="0.4" dotBBalance="0" dotEBalance="0.312806">
+            <points/>
+        </pair>
+        <pair type="pair/var/pos/perm/orient/membership" idtf="" shapeColor="0" id="94498404946064" parent="94498403351056" id_b="94498405888576" id_e="94498404954896" b_x="1299.93" b_y="71.76" e_x="0" e_y="0.4" dotBBalance="0" dotEBalance="0.648395">
+            <points/>
+        </pair>
+        <pair type="pair/var/pos/perm/orient/membership" idtf="" shapeColor="0" id="94498404934928" parent="94498403351056" id_b="94498405816032" id_e="94498405722000" b_x="1167.07" b_y="140.8" e_x="1264.93" e_y="178.9" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </pair>
+        <pair type="pair/var/pos/perm/orient/membership" idtf="" shapeColor="0" id="94498404945024" parent="94498403351056" id_b="94498405912960" id_e="94498405888368" b_x="1462.79" b_y="140.8" e_x="1358.5" e_y="140.8" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </pair>
+        <pair type="pair/var/-/perm/orient" idtf="" shapeColor="0" id="94498404947104" parent="94498403351056" id_b="94498405888368" id_e="94498405763168" b_x="1358.5" b_y="140.8" e_x="1264.93" e_y="104.61" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </pair>
+        <pair type="pair/var/-/perm/orient" idtf="" shapeColor="0" id="94498404954896" parent="94498403351056" id_b="94498405888368" id_e="94498405722000" b_x="1358.5" b_y="140.8" e_x="1264.93" e_y="178.9" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </pair>
+        <pair type="pair/var/pos/perm/orient/membership" idtf="" shapeColor="0" id="94498404936032" parent="94498403351056" id_b="94498405816032" id_e="94498405763168" b_x="1167.07" b_y="140.8" e_x="1264.93" e_y="104.61" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </pair>
+        <contour type="contour/const/perm" idtf="Two-postion nba players" shapeColor="0" id="94498403351056" parent="0" left="0" top="0" right="138.875" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" idtf_pos_x="134" idtf_pos_y="-92">
+            <points>
+                <point x="1102.79" y="28.9"/>
+                <point x="1102.79" y="218.9"/>
+                <point x="1655.65" y="218.9"/>
+                <point x="1655.65" y="28.9"/>
+            </points>
+        </contour>
+        <node type="node/const/perm/general" idtf="G" shapeColor="0" id="94498400684768" parent="94498406117024" left="0" top="0" right="18.375" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="814.22" y="289.663" haveBus="false" idtf_pos="1">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/perm/relation" idtf="nrel_current_team" shapeColor="0" id="94498403411008" parent="94498406117024" left="0" top="0" right="108.297" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="978.503" y="410.143" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/perm/general" idtf="brooklyn_nets" shapeColor="0" id="94498401836976" parent="94498406117024" left="0" top="0" right="83.7813" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="1047.79" y="358.713" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/var/perm/general" idtf="" shapeColor="0" id="94498403723008" parent="94498406117024" x="925.646" y="358.713" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/perm/relation" idtf="nrel_game_position" shapeColor="0" id="94498403723776" parent="94498406117024" left="0" top="0" right="114.109" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="814.22" y="358.713" haveBus="false" idtf_pos="1">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/perm/group" idtf="nba_player" shapeColor="0" id="94498404097536" parent="94498406117024" left="0" top="0" right="68.9063" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="925.646" y="289.663" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <pair type="pair/var/pos/perm/orient/membership" idtf="" shapeColor="0" id="94498404948304" parent="94498406117024" id_b="94498404097536" id_e="94498403723008" b_x="925.646" b_y="289.663" e_x="925.646" e_y="358.713" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </pair>
+        <pair type="pair/var/-/perm/orient" idtf="" shapeColor="0" id="94498404950368" parent="94498406117024" id_b="94498403723008" id_e="94498400684768" b_x="925.646" b_y="358.713" e_x="814.22" e_y="289.663" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </pair>
+        <pair type="pair/var/-/perm/orient" idtf="" shapeColor="0" id="94498404951344" parent="94498406117024" id_b="94498403723008" id_e="94498401836976" b_x="925.646" b_y="358.713" e_x="1047.79" e_y="358.713" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </pair>
+        <pair type="pair/var/pos/perm/orient/membership" idtf="" shapeColor="0" id="94498404968304" parent="94498406117024" id_b="94498403723776" id_e="94498404950368" b_x="814.22" b_y="358.713" e_x="0" e_y="1.6425" dotBBalance="0" dotEBalance="0.459448">
+            <points/>
+        </pair>
+        <pair type="pair/var/pos/perm/orient/membership" idtf="" shapeColor="0" id="94498404949328" parent="94498406117024" id_b="94498403411008" id_e="94498404951344" b_x="978.503" b_y="410.143" e_x="0" e_y="1.6425" dotBBalance="0" dotEBalance="0.42036">
+            <points/>
+        </pair>
+        <contour type="contour/const/perm" idtf="Brooklyn Nets Guards" shapeColor="0" id="94498406117024" parent="0" left="0" top="0" right="127.781" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" idtf_pos_x="95" idtf_pos_y="-82">
+            <points>
+                <point x="678.5" y="263.003"/>
+                <point x="678.5" y="441.573"/>
+                <point x="1139.93" y="441.573"/>
+                <point x="1139.93" y="264.423"/>
+            </points>
+        </contour>
+        <node type="node/var/perm/general" idtf="" shapeColor="0" id="94498400683840" parent="94498401688048" x="403.789" y="979.36" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/perm/group" idtf="nba_player" shapeColor="0" id="94498397776976" parent="94498401688048" left="0" top="0" right="68.9063" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="403.789" y="808.64" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/var/perm/general" idtf="" shapeColor="0" id="94498400683072" parent="94498401688048" x="403.789" y="883.64" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/perm/relation" idtf="nrel_game_number" shapeColor="0" id="94498403601536" parent="94498401688048" left="0" top="0" right="114.375" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="491.646" y="935.07" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/perm/group" idtf="23" shapeColor="0" id="94498404196336" parent="94498401688048" left="0" top="0" right="21" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="403.789" y="1036.5" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/perm/general" idtf="los_angeles_lakers" shapeColor="0" id="94498405460960" parent="94498401688048" left="0" top="0" right="109.031" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="563.074" y="883.64" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/perm/relation" idtf="nrel_current_team" shapeColor="0" id="94498399069968" parent="94498401688048" left="0" top="0" right="108.297" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="491.646" y="808.64" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <pair type="pair/var/pos/perm/orient/membership" idtf="" shapeColor="193" id="94498404966224" parent="94498401688048" id_b="94498404196336" id_e="94498400683840" b_x="403.789" b_y="1036.5" e_x="403.789" e_y="979.36" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </pair>
+        <pair type="pair/var/pos/perm/orient/membership" idtf="" shapeColor="0" id="94498404967264" parent="94498401688048" id_b="94498397776976" id_e="94498400683072" b_x="403.789" b_y="808.64" e_x="403.789" e_y="883.64" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </pair>
+        <pair type="pair/var/pos/perm/orient/membership" idtf="" shapeColor="0" id="94498404964080" parent="94498401688048" id_b="94498399069968" id_e="94498405030016" b_x="491.646" b_y="808.64" e_x="0" e_y="0" dotBBalance="0" dotEBalance="0.558554">
+            <points/>
+        </pair>
+        <pair type="pair/var/-/perm/orient" idtf="" shapeColor="0" id="94498405030016" parent="94498401688048" id_b="94498400683072" id_e="94498405460960" b_x="403.789" b_y="883.64" e_x="563.074" e_y="883.64" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </pair>
+        <pair type="pair/var/pos/perm/orient/membership" idtf="" shapeColor="0" id="94498404965184" parent="94498401688048" id_b="94498403601536" id_e="94498405032240" b_x="491.646" b_y="935.07" e_x="0" e_y="0" dotBBalance="0" dotEBalance="0.546554">
+            <points/>
+        </pair>
+        <pair type="pair/var/-/perm/orient" idtf="" shapeColor="0" id="94498405032240" parent="94498401688048" id_b="94498400683072" id_e="94498400683840" b_x="403.789" b_y="883.64" e_x="403.789" e_y="979.36" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </pair>
+        <contour type="contour/const/perm" idtf="Los Angeles Lakers 23-number" shapeColor="0" id="94498401688048" parent="0" left="0" top="0" right="176.297" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" idtf_pos_x="80" idtf_pos_y="-131">
+            <points>
+                <point x="373.074" y="785.07"/>
+                <point x="373.074" y="1066.5"/>
+                <point x="905.93" y="1066.5"/>
+                <point x="905.93" y="785.07"/>
+            </points>
+        </contour>
+    </staticSector>
+</GWF>

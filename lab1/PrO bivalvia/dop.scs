@@ -1,0 +1,46 @@
+section_subject_domain_of_heterodonta <- section;;
+section_subject_domain_of_anomalodesmata <- section;;
+section_subject_domain_of_palaeoheterodonta <- section;;
+section_subject_domain_of_protobranchia <- section;;
+section_subject_domain_of_pteriomorphia <- section;;
+section_subject_domain_of_сaudofoveata <- section;;
+section_subject_domain_of_solenogastres <- section;;
+section_subject_domain_of_polyplacophora <- section;;
+section_subject_domain_of_monoplacophora <- section;;
+section_subject_domain_of_bivalvia <- section;;
+section_subject_domain_of_scaphopoda <- section;;
+section_subject_domain_of_gastropoda <- section;;
+section_subject_domain_of_cephalopoda <- section;;
+section_subject_domain_of_rostroconchia <- section;;
+section_subject_domain_of_tentaculita <- section;;
+
+nrel_sash_fastening 
+<- norole_relation;
+=> nrel_main_idtf:
+	[крепление створок*]
+	(*<-lang_ru;;*);;
+	
+nrel_mirroring
+<- norole_relation;
+=> nrel_main_idtf:
+	[зеркальное копирование*]
+	(*<-lang_ru;;*);;
+	
+nrel_filtration
+<- norole_relation;
+=> nrel_main_idtf:
+	[фильтрация*]
+	(*<-lang_ru;;*);;
+		
+rrel_right_sash
+<- role_relation;
+=> nrel_main_idtf:
+	[правая створка']
+	(*<-lang_ru;;*);;
+		
+rrel_left_sash
+<- role_relation;
+=> nrel_main_idtf:
+	[левая створка']
+	(*<-lang_ru;;*);;
+	

@@ -1,0 +1,23 @@
+concept_unionidae => nrel_main_idtf:
+[перловицы и беззубки](*<-lang_ru;;*);
+[pearl barley and toothless](*<-lang_en;;*);
+[unionidae](*<-lang_lat;;*);;
+
+concept_family -> concept_unionidae;;
+
+concept_unionidae => nrel_inclusion: concept_pseudanodonta_complanata; concept_unio_crassus;;
+
+//определение и пояснения
+concept_unionidae <- rrel_key_sc_element:
+	...
+	(*
+	<- explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Беззубки и перловицы — крупные (до 20 см) двустворчатые моллюски. Их можно обнаружить на дне водоемов полузарывшимися в грунт.](* <- lang_ru;; *);;
+		*);;
+*);;
+
+subject_domain_of_bivalvia -> rrel_not_maximum_studied_object_class: concept_unionidae;;

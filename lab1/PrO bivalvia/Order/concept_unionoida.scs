@@ -1,0 +1,23 @@
+concept_unionoida => nrel_main_idtf:
+[перловицеподобные](*<-lang_ru;;*);
+[pearl-like](*<-lang_en;;*);
+[unionoida](*<-lang_lat;;*);;
+
+concept_order -> concept_unionoida;;
+
+concept_unionoida => nrel_inclusion: concept_unionidae;;
+
+//определение и пояснения
+concept_unionoida <- rrel_key_sc_element:
+	...
+	(*
+	<- explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Перловицеподобные - вид пресноводных двустворчатых моллюсков семейства унионид, распространённый в водоёмах Европы и Азии.](* <- lang_ru;; *);;
+		*);;
+*);;
+
+subject_domain_of_bivalvia -> rrel_not_maximum_studied_object_class: concept_unionoida;;

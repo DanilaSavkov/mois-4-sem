@@ -1,0 +1,38 @@
+section_subject_domain_of_bivalvia
+
+=> nrel_main_idtf:
+	[Раздел. Предметная область двустворчатых моллюсков]
+	(*<-lang_ru;;*);
+	[Section. Subject domain of bivalve molluscs]
+	(*<-lang_en;;*);
+	
+=> nrel_idtf: 	
+	[Раздел базы знаний по Красной книге, описывающий двустворчатых моллюсков.]
+	(* <- lang_ru;; *);
+	
+<= nrel_section_decomposition: 
+	{
+		section_subject_domain_of_anomalodesmata;
+		section_subject_domain_of_heterodonta;
+		section_subject_domain_of_palaeoheterodonta;
+		section_subject_domain_of_protobranchia;
+		section_subject_domain_of_pteriomorphia
+	};
+	
+<- not_enough_formed_structure;
+<- non_atomic_section;
+	
+-> rrel_key_sc_element: 
+	nrel_sash_fastening;
+	nrel_mirroring;
+	nrel_filtration;
+	rrel_right_sash;
+	rrel_left_sash;
+	concept_bivalvia;
+	concept_unionidae;
+	concept_unionoida;
+	concept_unio_crassus;
+	concept_pseudanodonta_complanata;
+	subject_domain_of_bivalvia;;
+
+section_subject_domain_of_bivalvia = [*^"file://subject_domain_of_bivalvia.scsi"*];;

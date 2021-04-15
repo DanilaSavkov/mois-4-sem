@@ -1,0 +1,23 @@
+concept_petromyzoniformes => nrel_main_idtf:
+[миногообразные](*<-lang_ru;;*);
+[lamprey-like](*<-lang_en;;*);
+[petromyzoniformes](*<-lang_lat;;*);;
+
+concept_order -> concept_petromyzoniformes;;
+
+concept_petromyzoniformes => nrel_inclusion: concept_petromyzonidae;;
+
+//определение и пояснения
+concept_petromyzoniformes <- rrel_key_sc_element:
+	...
+	(*
+	<- explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Миногообразные — отряд бесчелюстных из монотипического класса мино́г или, по другой классификации, класса непарноноздрёвых.](* <- lang_ru;; *);;
+		*);;
+*);;
+
+subject_domain_of_petromyzontes -> rrel_not_maximum_studied_object_class: concept_petromyzoniformes;;

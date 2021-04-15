@@ -1,0 +1,21 @@
+concept_petromyzontes => nrel_main_idtf:
+[миноги](*<-lang_ru;;*);
+[petromyzontes](*<-lang_lat;;*);
+[lamprey](*<-lang_en;;*);;
+
+concept_class -> concept_petromyzontes;;
+
+concept_petromyzontes => nrel_inclusion: concept_petromyzoniformes;;
+
+//определение и пояснения
+concept_petromyzontes <- rrel_key_sc_element:
+	...
+	(*
+	<- explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Миноги - это предки рыб, обладающие круглым ртом-присоской.](* <- lang_ru;; *);;
+		*);;
+*);;
